@@ -29,7 +29,7 @@ Winner information can be found here:
 
 ## Election Audit Summary
 
-Based on how this script was designed it can be used for almost any election where vote counts are provided in the same format as the current csv file (ballot id, county and candidate).  Number of candidates or counties do not impact the current scripts ability to use in the future as it will add unique candidates and counties are they are encountered.  There is also not hardcoding present in the script that would need to be modified.  The only real modification required is of the name of the input file would either need to be consistent with the current file name and be contained in the path run as contained or by changing the script for path and file name.  Code can be seen here:
+Based on how this script was designed it can be used for almost any election where vote counts are provided in the same format as the current csv file (ballot id, county and candidate).  Number of candidates or counties do not impact the current scripts ability to use in the future as it will add unique candidates and counties are they are encountered.  There is also no hardcoding present in the script that would need to be modified.  The only real modification required is of the name of the input file would either need to be consistent with the current file name and be contained in the path run as contained or by changing the script for path and file name.  Code can be seen here:
 
 ![here](https://github.com/lavec0324/Module3_Election/blob/main/Election%20Analysis/Resources/file_name_code.PNG).
 
