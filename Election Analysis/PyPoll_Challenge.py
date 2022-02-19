@@ -75,9 +75,9 @@ with open(file_to_save,"w") as txt_file:
         
     election_results = (
     f"\nElection Results\n"
-    f"--------------------------------\n"
+    f"-------------------------\n"
     f"Total Votes: {Total_votes:,}\n"
-    f"--------------------------------\n"
+    f"-------------------------\n"
     f"\n"   
     f"County Votes:\n")
     print(election_results, end="")
@@ -105,17 +105,17 @@ with open(file_to_save,"w") as txt_file:
     #Print the highest county turnout
     highest_turnout_county = (
         f"\n"
-        f"--------------------------------\n"
+        f"-------------------------\n"
         f"Largest County Turnout: {winning_county}\n"
-        f"--------------------------------\n"
+        f"-------------------------\n"
         f"\n")
     print(highest_turnout_county, end="")
         
     highest_turnout_county2 = (
         f"\n"
-        f"--------------------------------\n"
+        f"-------------------------\n"
         f"Largest County Turnout: {winning_county}\n"
-        f"--------------------------------\n")
+        f"-------------------------\n")
     txt_file.write(highest_turnout_county2)
 
     
@@ -144,11 +144,11 @@ with open(file_to_save,"w") as txt_file:
     
     #Print the winning candidate  info
     winning_candidate_summary = (
-    f"--------------------------------\n"
+    f"-------------------------\n"
     f"Winner: {winning_candidate}\n"
     f"Winning Vote Count: {winning_count:,}\n"
     f"Winning Percentage: {winning_percentage:.1f}%\n"
-    f"--------------------------------\n")
+    f"-------------------------\n")
     print(winning_candidate_summary, end="")
     txt_file.write(winning_candidate_summary)
     
