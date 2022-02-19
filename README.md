@@ -33,5 +33,5 @@ Based on how this script was designed it can be used for almost any election whe
 
 ![here](https://github.com/lavec0324/Module3_Election/blob/main/Election%20Analysis/Resources/file_name_code.PNG).
 
-In addition, modifications can be made to the script to include information around ballot ids; for example to check to see that all ballot ids are unique (i.e. no duplicates).  If available there can also be data included in the csv file which represent voter demogrpahics where you could show a breakdown of voters by key demographics such as age allowing candidates to know what age bracket voted for them in the election the heaviest.
+In addition, modifications can be made to the script to include information around ballot ids; for example to check to see that all ballot ids are unique (i.e. no duplicates).  If available, there can also be data included in the csv file which represent voter demogrpahics where you could show a breakdown of voters by key demographics such as age allowing candidates to know what age bracket voted for them in the election the heaviest.
 
